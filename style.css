@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: url(header-background.jpg) no-repeat top center;
+    background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+ }
+
+ #nav-wrap ul, #nav-wrap li, #nav-wrap a {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap  {
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+
+  /* center align the menu */
+  text-align: center;
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+   text-decoration: none;
+  text-align: left;
+  color: #fff;
+
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+ul#nav li.current a { color: #F06000; }
+
+.logo{
+float: left;
+text-align: left;
+color: #fff;
+padding: 8px 13px;
+margin-top: 6px;
+font-size: 35px;
+}
+
+div.banner-section {
+    background:transparent;
+    padding: 10rem;
+}
+
+div.banner-content-heading {
+    text-align: center;
+}
+
+div.banner-content-heading h3 {
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 150px;
+}
+
+div.banner-content-heading p {
+    text-align: center;
+    padding-top: 0.7rem;
+    color: #88949B;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+
+
+
+
+.career-obj{
+    background: #FCFCFC;
+    padding-top: 96px;
+    padding-bottom: 150px;
+    text-align: center;
+    
+}
+
+
+.career-obj h2{
+    font-size: 40px;
+    color: #272932;
+}
+
+
+.career-obj p{
+    font-size: 20px;
+    color: #5C5552;
+}
+
+
+#education{
+    padding-top: 96px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: #f0f0f0;
+   
+}
+.box1 {
+    padding: 10px 20px;
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    margin-left: 200px;
+  
+}
+
+
+.box2 {
+    padding: 10px 20px;
+    width: 550px;
+    height: 250px;
+    margin-left: 750px;
+    margin-top: -315px;
+   
+}
+
+.edu h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #272932;
+
+}
+
+.edu h5{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+
+.edu p{
+    font-size: 20px;
+    color: #5C5552;
+
+}
+
+
+.exp{
+    background: #e8e8e8;
+    padding-top: 96px;
+    padding-bottom: 200px;
+    /* text-align: center; */
+    width: 100%;
+    margin: 0;
+
+}
+
+
+.exp h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #272932;
+    text-align: center;
+
+}
+
+.exp h5{
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+
+.exp p{
+    font-size: 20px;
+    color: #5C5552;
+
+}
+
+
+
+.job h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #272932;
+    text-align: center;
+
+}
+.job p{
+    font-size: 20px;
+    color: #5C5552;
+    margin-left: 780px;
+    
+}
+.job{
+    background-color: #c8c8c8;
+    padding-bottom: 50px;
+    margin-top: -80px;
+    
+    
+}
+
+.contain {
+  width: 300px; /* Full width */
+  background-color: #ddd; /* Grey background */
+  margin-left: 780px;
+
+ 
+}
+
+.skills {
+align-items: center;
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+.html {width: 290px; background-color: #808080;} /* Green */
+.css {width: 280px; background-color: #808080;} /* Blue */
+.js {width: 265px; background-color: #808080;} /* Red */
+.java {width: 260px; background-color: #808080;} /* Dark Grey */
+
+
+.job h3{
+      margin-left: 200px;
+      margin-top: -200px;
+      color: #131212;
+      font-size: 22px;  
+    
+}
+ 
+.general {
+    padding: 10px 20px;
+    width: 600px;
+    height: 250px;
+    margin: 10px;
+    margin-left: 10px;
+  
+}
+
+.general p{
+    color: #5C5552;
+    margin-left: 200px;
+    font-size: 20px;
+
+}
+
+
+input[type=text], select, textarea {
+    width: 900px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #ccd5ff;
+    color: #333;
+    padding: 12px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #c2fdc5;
+  }
+  
+  /* Style the container/contact section */
+  #contact {
+    border-radius: 5px;
+    background: #1F1F1F url(skill-bg.jpg  )no-repeat center center;
+    background-size: cover !important;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 200px;
+    /* width: 100%; */
+    overflow: hidden;
+    color: #fff;
+    padding-top: 50px;
+}  
+    
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 30%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column-dre{
+      margin-left: 200px;
+      margin-top: 90px;
+  }
+ .column-res{
+     margin-left: 500px;
+     margin-top: -250px;
+ }
+
+
+ .footer{
+    border-radius: 5px;
+    background: #1F1F1F url(skill-bg.jpg  )no-repeat center center;
+    background-size: cover !important;
+    background-attachment: fixed;
+    position: relative;
+    color: #f0f0f0;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 18px;
+
+ }
+  
+ 
+
+  @media only screen and (max-width: 768px) {
+      header{
+          width: 100vh;
+      }
+    .logo {
+        margin-left: -60px;
+    }
+
+    #nav-wrap {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.banner-content-heading {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: -100px;
+
+    }
+    div.banner-content-heading h3 {
+
+        font-size: 100%;
+        width: 100%;
+        text-align: center;
+
+    }
+    div.banner-content-heading p {
+
+        font-size: 3vw;
+        width: 300px;
+
+    }
+
+    #education{
+        width: 100%;
+
+   }
+        
+        }
